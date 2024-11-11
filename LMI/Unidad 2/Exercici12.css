@@ -1,0 +1,51 @@
+table{
+    border: solid black 1px;            
+    border-collapse: collapse;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+td{
+    border: solid black 1px;
+}
+.hora{
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+}
+#Dies{
+    text-shadow:  gray 1px 1px;
+    background-color: aliceblue;
+}
+#pati{
+    border: black dotted;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+#top{
+    background-color: beige;
+}
+.LMI{
+    background-color: blanchedalmond;
+}
+.PRG{
+    background-color: darkgray;
+}
+.ANG{
+    background-color: darkorchid;
+}
+.BD{
+    background-color: darkgoldenrod;
+}
+.SI{
+    background-color: indianred;
+}
+.IPO{
+    background-color: mediumseagreen;
+}
+.EDD{
+    background-color: teal;
+}
+.Proj{
+    background-color: khaki;
+}
