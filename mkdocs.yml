@@ -1,0 +1,37 @@
+site_name: My Docs
+
+theme:
+    name: 'material'
+    custom_dir: 'docs/overrides'
+    palette:
+        primary: 'black'
+        accent: 'pink'
+        background: 'white'
+        surface: 'grey'
+        error: 'red'
+
+extra_css:
+  - 'overrides/extra.css'
+
+nav:
+  - inici: index.md
+  - EDD:
+    - Apunts: EDD\Apuntes\apunts.md
+    - Article 1 : EDD/Tema_1/Act1.1.md
+    - Article 2 : EDD/Tema_1/Act1.2.md
+    - Article 3 : EDD/Tema_1/Act1.3.md
+    - Article 4 : EDD/Tema_1/Act1.4.md
+    - Article 5 : EDD/Tema_1/Act1.5.md
+    - Article 6 : EDD/Tema_1/Act1.6.md
+    - Article 7 : EDD\Actividades\Control de versions\git.md
+    - Article 8 : EDD\Actividades\Control de versions\projecte1.md
+    - Article 9 : EDD\Actividades\Control de versions\projecte2.md
+ 
+  - LMI:
+    - Apuntes:
+      - Unidad 1: LMI\Apuntes\Apuntes.md
+      - Unidad 2: LMI\Apuntes\Unidad_2.md
+    - Actividades: 
+      - Article 1: LMI\Apuntes\Actividades_U1.md
+      - Article 2: LMI\Tema_1\Act1.1.md
+      - Article 3:  LMI\Tema_1\Act1.2.md
