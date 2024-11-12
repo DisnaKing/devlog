@@ -31,7 +31,10 @@ nav:
     - Apuntes:
       - Unidad 1: LMI\Apuntes\Apuntes.md
       - Unidad 2: LMI\Apuntes\Unidad_2.md
-    - Actividades: 
-      - Article 1: LMI\Apuntes\Actividades_U1.md
-      - Article 2: LMI\Tema_1\Act1.1.md
-      - Article 3:  LMI\Tema_1\Act1.2.md
+    - Actividades:
+      - Unidad 1: 
+        - Article 1: LMI\Apuntes\Actividades_U1.md
+        - Article 2: LMI\Tema_1\Act1.1.md
+        - Article 3:  LMI\Tema_1\Act1.2.md
+      - Unidad 3:
+        - Article 1: LMI\Unidad_2\HTML\Exercici1.html  
