@@ -10,7 +10,7 @@ Per alguna raó no s'actualitza bé el repositori, per aixó en aquesta pàgina 
 
 [Calculadora](EDD/calculadora/calculadora.md)  
 
-[Git](EDD/"Control de versions"/git.md)  
+[Git](EDD/ControlDeVersions/git.md)  
 
 [Maven 1](EDD/maven/maven1.md)  
 
