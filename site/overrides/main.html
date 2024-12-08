@@ -1,7 +1,15 @@
 {% extends "base.html" %}
+
 {% block content %}
-<div class="custom-header">
-    <h2>Pàgina principal EDD i LMI</h2>
-</div>
-{{super()}}
+<article>
+    <header>
+        <h1>Benvinguts a la meva documentació</h1>
+    </header>
+    <section>
+        {{ super() }}
+    </section>
+    <footer>
+        <p>&copy; 2024 La Meva Documentació</p>
+    </footer>
+</article>
 {% endblock %}
