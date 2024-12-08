@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../../img/favicon.ico">
+  <title>Actividad 2: Control de versiones y modelo iterativo - DocDam</title>
+  <link rel="stylesheet" href="../../../css/theme.css" />
+  <link rel="stylesheet" href="../../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Actividad 2: Control de versiones y modelo iterativo";
+    var mkdocs_page_input_path = "EDD/RC and Subversion/Control de versiones y modelo iterativo.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../../.." class="icon icon-home"> DocDam</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../..">Inici</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">EDD</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="" href="../../apunts.md">Apunts</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../Tema_1/Act1.1/">Article 1</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../Tema_1/Act1.2/">Article 2</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../Tema_1/Act1.3/">Article 3</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../Tema_1/Act1.4/">Article 4</a>
+                    </li>
+                    <li class="toctree-l1"><a class="" href="../../Tema_1/Act1.5.md">Article 5</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../Tema_1/Act1.6/">Article 6</a>
+                    </li>
+                    <li class="toctree-l1"><a class="" href="../../Control de versions/git.md">Article 7</a>
+                    </li>
+                    <li class="toctree-l1"><a class="" href="../../Control de versions/projecte1.md">Article 8</a>
+                    </li>
+                    <li class="toctree-l1"><a class="" href="../../Control de versions/projecte2.md">Article 9</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">RC and subversion</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="../../Actividades/RC and Subversion/Control de versiones y modelo iterativo.md">Control de versiones y modelo iterativo</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../Actividades/RC and Subversion/Desarrollo colaborativo.md">Desarrollo colaborativo</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../Actividades/RC and Subversion/Diferencias entre RCS y Subversion.md">Diferencias entre RCS y subversion</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="" href="../../Actividades/calculadora/calculadora.md">Calculadora</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Maven</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="../../Actividades/maven/maven1.md">Act 1</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../Actividades/maven/maven2.md">Act 2</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../Actividades/maven/maven3.md">Act 3</a>
+                </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">LMI</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Apuntes</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="../../../LMI/Apuntes/Apuntes.md">Unidad 1</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../../LMI/Apuntes/Unidad_2.md">Unidad 2</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Actividades</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="../../../LMI/Apuntes/Actividades_U1.md">Article 1</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../../LMI/Tema_1/Act1.1.md">Article 2</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../../LMI/Tema_1/Act1.2.md">Article 3</a>
+                </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">ING</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Apuntes</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="../../../ING/Unit 1.md">Unidad 1</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../../ING/Unit 2.md">Unidad 2</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../../ING/Unit 3.md">Unidad 3</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../../ING/Unit 4.md">Unidad 4</a>
+                </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">BD</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="" href="../../../BD/Unidad 1/Apuntes/Apuntes.md">Article 1</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">SI</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Apuntes</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="../../../SI/Apuntes/Apuntes.md">Unidad 1</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../../SI/Apuntes/Unidad2.md">Unidad 2</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../../SI/Apuntes/Unidad4.md">Unidad 4</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Actividades</a>
+    <ul>
+                <li class="toctree-l2"><a class="" href="../../../SI/Licencia_Software.md">Actividad 1</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../../SI/Apuntes/Unidad3.md">Actividad 2</a>
+                </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">IPO</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="" href="../../../IPO/Examen/1r_examen.md">Examen 1</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../..">DocDam</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Actividad 2: Control de versiones y modelo iterativo</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="actividad-2-control-de-versiones-y-modelo-iterativo">Actividad 2: Control de versiones y modelo iterativo</h1>
+<p>En un proyecto que sigue un modelo de desarrollo iterativo e incremental y utiliza Subversion (SVN), la estructura del repositorio debe permitir una clara separación entre las fases y versiones del proyecto. Propongo la siguiente estructura para el repositorio:</p>
+<h2 id="estructura-del-repositorio-svn">Estructura del repositorio SVN</h2>
+<h3 id="justificacion">Justificación</h3>
+<ol>
+<li><strong>/trunk</strong>: Contiene la versión estable del código, que debe funcionar correctamente en todo momento.</li>
+<li><strong>/branches</strong>: Permite el desarrollo de nuevas funcionalidades o iteraciones. Cada iteración se trabaja en una rama separada.</li>
+<li><strong>/tags</strong>: Contiene etiquetas para versiones estables del producto (releases). Estas versiones pueden ser utilizadas para desplegar o probar el producto.</li>
+</ol>
+<p>Esta estructura garantiza un trabajo claramente organizado, con separación entre el código estable (<code>/trunk</code>), las ramas de iteraciones en curso (<code>/branches</code>), y las versiones finales o estables (<code>/tags</code>).</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../../..';</script>
+    <script src="../../../js/theme.js" defer></script>
+      <script src="../../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
