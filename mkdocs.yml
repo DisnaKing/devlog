@@ -1,6 +1,6 @@
 site_name: DocDam
 theme:
-  name: 'readthedocs'
+  name: 'material'
 nav:
   - Inici: index.md
   - EDD:
