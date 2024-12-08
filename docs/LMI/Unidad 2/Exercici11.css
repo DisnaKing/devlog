@@ -1,0 +1,30 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.col1{
+    border: solid black 1px;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 10px;
+}
+#nombre{
+    text-align: center;
+    padding-right: 10px;
+    border-top: solid black 1px;
+}
+.Estudios{
+    size: 50px;
+    padding: 20px;
+}
+img{
+    padding: 0px 10px 10px 55px;
+    width: 120px;
+}
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#colfinal{
+    border-bottom: solid black 1px;
+}
