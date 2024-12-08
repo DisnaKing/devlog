@@ -1,0 +1,51 @@
+site_name: DocDam
+theme:
+  name: 'readthedocs'
+nav:
+  - Inici: index.md
+  - EDD:
+    - Apunts: EDD\apunts.md
+    - Article 1 : EDD/Tema_1/Act1.1.md
+    - Article 2 : EDD/Tema_1/Act1.2.md
+    - Article 3 : EDD/Tema_1/Act1.3.md
+    - Article 4 : EDD/Tema_1/Act1.4.md
+    - Article 5 : EDD\Tema_1/Act1.5.md
+    - Article 6 : EDD/Tema_1/Act1.6.md
+    - Article 7 : EDD\Control de versions\git.md
+    - Article 8 : EDD\Control de versions\projecte1.md
+    - Article 9 : EDD\Control de versions\projecte2.md
+    - RC and subversion : 
+      - Control de versiones y modelo iterativo :  EDD/Actividades/RC and Subversion/Control de versiones y modelo iterativo.md
+      - Desarrollo colaborativo : EDD\Actividades\RC and Subversion\Desarrollo colaborativo.md
+      - Diferencias entre RCS y subversion : EDD\Actividades\RC and Subversion\Diferencias entre RCS y Subversion.md
+    - Calculadora : EDD\Actividades\calculadora\calculadora.md
+    - Maven:
+      - Act 1 : EDD\Actividades\maven\maven1.md
+      - Act 2 : EDD\Actividades\maven\maven2.md
+      - Act 3 : EDD\Actividades\maven\maven3.md 
+  - LMI:
+    - Apuntes:
+      - Unidad 1: LMI\Apuntes\Apuntes.md
+      - Unidad 2: LMI\Apuntes\Unidad_2.md
+    - Actividades: 
+      - Article 1: LMI\Apuntes\Actividades_U1.md
+      - Article 2: LMI\Tema_1\Act1.1.md
+      - Article 3:  LMI\Tema_1\Act1.2.md
+  - ING: 
+    - Apuntes:
+      - Unidad 1: ING\Unit 1.md
+      - Unidad 2: ING\Unit 2.md
+      - Unidad 3: ING\Unit 3.md 
+      - Unidad 4 : ING\Unit 4.md
+  - BD:
+    - Article 1: BD\Unidad 1\Apuntes\Apuntes.md
+  - SI:
+    - Apuntes: 
+      - Unidad 1: SI\Apuntes\Apuntes.md
+      - Unidad 2: SI\Apuntes\Unidad2.md
+      - Unidad 4: SI\Apuntes\Unidad4.md
+    - Actividades: 
+      - Actividad 1 : SI\Licencia_Software.md
+      - Actividad 2 : SI\Apuntes\Unidad3.md
+  - IPO:
+    - Examen 1 : IPO\Examen\1r_examen.md
