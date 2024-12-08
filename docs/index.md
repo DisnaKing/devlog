@@ -18,10 +18,8 @@ Per alguna raó no s'actualitza bé el repositori, per aixó en aquesta pàgina 
 
 [Maven 3](EDD/maven/maven3.md)  
 
-[Control de versiones y modelo iterativo](<EDD/RC and Subversion/Control de versiones y modelo iterativo.md>)  
+[Control de versiones y modelo iterativo](EDD/RCAndSubversion/ControlDeVersionesYModeloIterativo.md)  
 
-[Desarrollo colaborativo](<EDD/RC and Subversion/Desarrollo colaborativo.md>)  
+[Desarrollo colaborativo](EDD/RCAndSubversion/DesarrolloColaborativo.md)  
 
-[Diferencias entre RCS y Subversion](<EDD/RC and Subversion/Diferencias entre RCS y Subversion.md>)  
-
-[text](EDD/Tema_1)
+[Diferencias entre RCS y Subversion](EDD/RCAndSubversion/DiferenciasEntreRCSYSubversion.md)  
