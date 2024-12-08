@@ -1,7 +1,7 @@
 site_name: DocDam
 theme:
   name: 'readthedocs'
-  custom_dir: 'overrides'
+  custom_dir: '/docs/overrides'
 nav:
   - Inici: index.md
   - EDD:
