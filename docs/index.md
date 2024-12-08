@@ -8,6 +8,18 @@ Per alguna raó no s'actualitza bé el repositori, per aixó en aquesta pàgina 
 
 ## Enllaços a les activitats
 
+[Act1](EDD/Tema_1/Act1.1.md)
+
+[Act2](EDD/Tema_1/Act1.2.md)
+
+[Act3](EDD/Tema_1/Act1.3.md)
+
+[Act4](EDD/Tema_1/Act1.4.md)
+
+[Act5](EDD/Tema_1/Act1.5.md)
+
+[Act6](EDD/Tema_1/Act1.6.md)
+
 [Calculadora](EDD/calculadora/calculadora.md)  
 
 [Git](EDD/ControlDeVersions/git.md)  
