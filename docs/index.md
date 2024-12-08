@@ -1,12 +1,6 @@
 # Guillem Rodríguez
 
-{% extends "base.html" %}
-{% block content %}
-<div class="custom-header">
-    <h2>Pàgina principal EDD i LMI</h2>
-</div>
-{{super()}}
-{% endblock %}
+***Pàgina principal EDD i LMI***
 
 ## Problema
 
