@@ -1,6 +1,7 @@
 site_name: DocDam
 theme:
   name: 'readthedocs'
+  custom_dir: 'overrides'
 nav:
   - Inici: index.md
   - EDD:
@@ -23,3 +24,5 @@ nav:
       - Act 1 : EDD/maven/maven1.md
       - Act 2 : EDD/maven/maven2.md
       - Act 3 : EDD/maven/maven3.md
+extra_css:
+  - 'overrides/extra.css'
