@@ -1,4 +1,6 @@
 site_name: DocDam
+docs_dir: 'md'
+site_dir: 'docs'
 theme:
   name: 'material'
   palette:
