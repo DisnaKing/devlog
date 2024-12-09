@@ -31,5 +31,19 @@ nav:
       - Act 1 : EDD/maven/maven1.md
       - Act 2 : EDD/maven/maven2.md
       - Act 3 : EDD/maven/maven3.md
+  - LMI : 
+    - JavaScript:
+      - Act 1: LMI/JavaScript/1.js
+      - Act 2: LMI/JavaScript/2.js
+      - Act 3: LMI/JavaScript/3.js
+      - Act 4: LMI/JavaScript/4.js
+      - Act 5: LMI/JavaScript/5.js
+      - Act 6: LMI/JavaScript/6.js
+      - Act 7: LMI/JavaScript/7.js
+      - Act 8: LMI/JavaScript/8.js
+      - Act 9: LMI/JavaScript/9.js
+      - Act 10: LMI/JavaScript/10.js
+      - Act 11: LMI/JavaScript/11.js
+      - Act 12: LMI/JavaScript/12.js
 extra_css:
   - 'overrides/extra.css'
